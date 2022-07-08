@@ -1,3 +1,5 @@
-console.log(process.env.PORT)
-// make a .env file in the root directory of your project;
-// USING ENVIRONMENT VARIABLES WITHOUT DOTENV MODULES.
+// simle adding fn in ts
+const add = (a: number, b: number): number => {
+    return Number(a) + b;
+}
+console.log(add(process.env.PORT, 1));
